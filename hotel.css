@@ -1,0 +1,360 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+
+.navbgbox {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    height: 90px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.navbox nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Add padding to the sides */
+}
+
+.logo img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+
+#navbuttons ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbuttons a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 26px;
+}
+
+#space {
+    padding-right: 70px;
+}
+
+#space2 {
+    padding-right: 20px;
+}
+
+.headbox {
+    margin-top: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color: blanchedalmond;
+    box-shadow: inset 0px 0px 20px purple;
+    font-size: 80px;
+    text-align: center;
+    padding: 20px;
+}
+
+.menuf {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo1 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1 h1 {
+    padding-left: 20px;
+}
+
+.ho {
+    padding-right: 20px;
+}
+
+.ho a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+
+.mbody {
+    display: flex;
+    width: 100%;
+    height: 230px;
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.momo,
+.chicken,
+.mutton,
+.chowmin {
+    border: 1px solid white;
+    width: calc(50% - 20px); /* Adjust width for responsiveness */
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.momo h4,
+.chicken h4,
+.mutton h4,
+.chowmin h4 {
+    color: white;
+    padding: 20px;
+}
+
+.momo ul,
+.chicken ul,
+.mutton ul,
+.chowmin ul {
+    color: white;
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
+.hbody,
+.pbody {
+    display: flex;
+    width: 100%;
+    height: 230px;
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #191714 0%, #2234ae 74%);
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.veg,
+.hukkah {
+    border: 1px solid white;
+    width: calc(50% - 20px); /* Adjust width for responsiveness */
+    height: 220px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.veg h4,
+.hukkah h4 {
+    color: white;
+    padding: 20px;
+}
+
+.veg ul,
+.hukkah ul {
+    color: white;
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
+.card {
+    height: 400px;
+    width: 100%;
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #191714 0%, #2234ae 74%);
+    display: flex;
+    flex-direction: column;
+}
+
+.logocard {
+    height: 360px;
+    width: 290px;
+    background-color: rgb(12, 12, 43);
+    margin-left: 41%;
+    margin-top: 18px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.logoco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logocard img {
+    border-radius: 50%;
+    margin-right: 110px;
+}
+
+#text1 {
+    color: white;
+}
+
+#text2 {
+    color: whitesmoke;
+}
+
+.sologan {
+    color: white;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+#index {
+    background: rgb(5, 5, 50);
+    height: 2320px;
+    width: 100%;
+}
+#aboutus1{
+    color: aliceblue;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+.aboutus1{
+    color: aliceblue;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 10px;
+    border-bottom:1px solid white ;
+   
+}
+
+#foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    background: #000;
+    color: white;
+}
+
+.footer1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    background: #000;
+    color: white;
+}
+
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    .logo img {
+        height: 60px;
+        width: 60px;
+    }
+
+    #navbuttons a {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .headbox {
+        font-size: 60px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .menuf {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo1 {
+        padding: 10px;
+    }
+
+    .ho {
+        padding-right: 10px;
+    }
+
+    .ho a {
+        padding: 5px 10px;
+    }
+
+    .momo,
+    .chicken,
+    .mutton,
+    .chowmin,
+    .veg,
+    .hukkah {
+        width: calc(50% - 20px); /* Adjust width for responsiveness */
+        margin: 10px;
+    }
+
+    .momo h4,
+    .chicken h4,
+    .mutton h4,
+    .chowmin h4,
+    .veg h4,
+    .hukkah h4 {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .headbox {
+        font-size: 40px;
+    }
+
+    .logocard {
+        margin-left: 10%; /* Adjust as necessary */
+        width: 80%; /* Adjust width as necessary */
+    }
+
+    .momo,
+    .chicken,
+    .mutton,
+    .chowmin,
+    .veg,
+    .hukkah {
+        width: calc(100% - 20px); /* Adjust width for responsiveness */
+        margin: 10px;
+    }
+
+    .momo h4,
+    .chicken h4,
+    .mutton h4,
+    .chowmin h4,
+    .veg h4,
+    .hukkah h4 {
+        padding: 10px; /* Adjust padding as necessary */
+    }
+}
